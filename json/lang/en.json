@@ -1,0 +1,49 @@
+{
+    "title": "Who is prowling around Hogwarts tonight?",
+    "search_placeholder": "Type a character name",
+
+    "attributes": {
+        "name": "Name",
+        "blood": "Blood status",
+        "gender": "Gender",
+        "house": "House",
+        "magic": "Magic",
+        "species": "Species",
+        "birthday": "Birthday",
+        "alignment": "Alignment",
+        "state":"State"
+    },
+
+    "values": {
+        "male": "Male",
+        "female": "Female",
+
+        "pureblood": "Pure-blood",
+        "halfblood": "Half-blood",
+        "muggleborn": "Muggle-born",
+
+        "wizard": "Wizard",
+        "witch": "Witch",
+        "human": "Human",
+        "elf": "Elf",
+        "halfgiant":"Half-Giant",
+
+        "alive": "Alive",
+        "dead": "Dead",
+        "yes":"Yes",
+        "no":"No",
+
+        "good": "Good",
+        "evil": "Evil",
+        "neutral": "Neutral",
+        "unknown":"Unknown"
+    },
+
+    "age_compare": {
+        "older": "Older than the prowler",
+        "younger": "Younger than the prowler",
+        "same": "Same age as the prowler"
+    },
+
+    "win_message": "You won! The prowler was {name}"
+}

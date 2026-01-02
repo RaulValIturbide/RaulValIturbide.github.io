@@ -1,0 +1,49 @@
+{
+    "title": "¿Quién merodea por Hogwarts esta noche?",
+    "search_placeholder": "Escribe el nombre de un personaje",
+
+    "attributes": {
+        "name": "Nombre",
+        "blood": "Sangre",
+        "gender": "Género",
+        "house": "Casa",
+        "magic": "Magia",
+        "species": "Especie",
+        "birthday": "Nacimiento",
+        "alignment": "Alineamiento",
+        "state": "Estado"
+    },
+
+    "values": {
+        "male": "Masculino",
+        "female": "Femenino",
+
+        "pureblood": "Pura",
+        "halfblood": "Mestiza",
+        "muggleborn": "Hija/o de muggles",
+
+        "wizard": "Mago",
+        "witch": "Bruja",
+        "human": "Humano",
+        "elf": "Elfo",
+        "halfgiant": "Semigigante",
+
+        "alive": "Vivo",
+        "dead": "Muerto",
+        "yes":"Si",
+        "no":"No",
+
+        "good": "Bueno",
+        "evil": "Malvado",
+        "neutral": "Neutral",
+        "unknown": "Desconocido"
+    },
+
+    "age_compare": {
+        "older": "Más viejo que el merodeador",
+        "younger": "Más joven que el merodeador",
+        "same": "Edad del merodeador"
+    },
+
+    "win_message": "¡Has ganado! El merodeador era {name}"
+}

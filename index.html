@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="icon" href="img/TituloICO.ico">
+
+    <title>Who Is In HogwartsToday?</title>
+</head>
+<body>
+    <img src="img/hogwartsFondo.png" class="fondo">
+
+    <div class="opciones">
+        <img id="IdiomaSpain" src="img/SpainFlag.svg">
+        <img id="IdiomaEnglish" src="img/EnglishFlag.png">
+    </div>
+    <h1 class="titulo">Who is Prowling Around Hogwarts Tonight?</h1>
+    <div class="huellas"></div>
+
+    <div class="bloqueResultados"> 
+        <!-- Aquí insertaremos el encabezado --> 
+        <div class="encabezadoTabla fila"></div>
+        <!-- Aquí van los intentos --> 
+        <div class="scrollResultados"></div>
+    </div>
+
+    <div class="bloque">
+        <input type="text" class="buscador" placeholder="Escribe el nombre de un personaje">
+        <div class="resultados"></div>
+    </div>
+
+    <div class="CromoPersonajeSecreto">
+        <img id="imgCromo" >
+        <div class="CajaAcierto"></div>
+    </div>
+
+    <!-- LÓGICA -->
+    <script src="Logica/Personaje.js"></script>
+    <script src="Logica/GestorPersonajes.js"></script>
+    <script src="Logica/GestorBusqueda.js"></script>
+    <script src="Logica/GestorIdioma.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

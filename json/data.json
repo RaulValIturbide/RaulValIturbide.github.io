@@ -1,0 +1,65 @@
+[
+    {
+        "nombre": "Harry Potter",
+        "casa": "Gryffindor",
+        "genero": "male",
+        "magico": "yes",
+        "especie": "human",
+        "nacimiento": "1980-07-31",
+        "alineamiento": "good",
+        "sangre": "halfblood",
+        "estado": "alive",
+        "rutaImagenIcon": "img/PersonajesIcons/HarryPotterIcon.png",
+        "rutaImagenCromo": "img/Cromos/HarryPotterCromo.png"
+    },
+    {
+        "nombre": "Hermione Granger",
+        "casa": "Gryffindor",
+        "genero": "female",
+        "magico": "yes",
+        "especie": "human",
+        "nacimiento": "1979-09-19",
+        "alineamiento": "good",
+        "sangre": "muggleborn",
+        "estado": "alive",
+        "rutaImagenIcon": "img/PersonajesIcons/HermioneGrangerIcon.png",
+        "rutaImagenCromo": "img/Cromos/HermioneGrangerCromo.png"
+    },
+    {
+        "nombre": "Ron Weasley",
+        "casa": "Gryffindor",
+        "genero": "male",
+        "magico": "yes",
+        "especie": "human",
+        "nacimiento": "1980-03-01",
+        "alineamiento": "good",
+        "sangre": "pureblood",
+        "estado": "alive",
+        "rutaImagenIcon": "img/PersonajesIcons/RonWeasleyIcon.png",
+        "rutaImagenCromo": "img/Cromos/RonWeasleyCromo.png"
+    },
+    {
+        "nombre": "Dobby",
+        "casa": "unknown",
+        "genero": "male",
+        "magico": "yes",
+        "especie": "elf",
+        "nacimiento": "unknown",
+        "alineamiento": "good",
+        "sangre": "unknown",
+        "estado": "dead",
+        "rutaImagenIcon": "img/PersonajesIcons/DobbyIcon.png"
+    },
+    {
+        "nombre": "Rubeus Hagrid",
+        "casa": "Gryffindor",
+        "genero": "male",
+        "magico": "yes",
+        "especie": "halfgiant",
+        "nacimiento": "1928-12-06",
+        "alineamiento": "good",
+        "sangre": "halfgiant",
+        "estado": "alive",
+        "rutaImagenIcon": "img/PersonajesIcons/RubeusHagridIcon.png"
+    }
+]

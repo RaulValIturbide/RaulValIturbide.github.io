@@ -9,7 +9,7 @@
         "house": "House",
         "magic": "Magic",
         "species": "Species",
-        "birthday": "Birthday",
+        "birthday": "Age",
         "alignment": "Alignment",
         "state":"State"
     },

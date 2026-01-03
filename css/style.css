@@ -3,6 +3,7 @@ body {
     padding: 0;
     height: 100vh;
     overflow: hidden;
+    
 }
 
 .titulo { 
@@ -32,7 +33,7 @@ body {
      top: 50px;
      right: 5%;
      display: flex; 
-     gap: 10px;
+     gap: 30px;
      justify-content: center;
      align-items: center;
      transform: translateX(-50%);
@@ -46,17 +47,57 @@ body {
      backdrop-filter: blur(4px);
      border: 2px solid rgba(255, 215, 0, 0.4);
      box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+     margin-right: -5%;
 }
 .opciones img { 
-     width: 40px; 
-     height: 40px; 
-     object-fit: 
-     contain; border-radius: 
-     6px; cursor: pointer; 
+     width: 50px; 
+     height: 50px; 
+     object-fit: contain; 
+     border-radius: 6px; 
+     cursor: pointer; 
      transition: transform 0.2s ease; 
 }
 .opciones img:hover { 
-     transform: scale(1.15);
+     transform: scale(1.25);
+}
+#AjustesCamaraSecreta { 
+     margin-left: auto; 
+     width: 60px; 
+     height: 60px; 
+     filter: drop-shadow(0 0 5px gold); 
+}
+.LinksSociales{
+     position:absolute;
+     top: 50px;
+     left: 15%;
+     display: flex; 
+     gap: 30px;
+     justify-content: center;
+     align-items: center;
+     background: rgba(0, 0, 0, 0.6);
+     padding: 30px;
+     border-radius: 15px;
+     width: 350px;
+     height: 10px;
+     text-align: center;
+     color: white;
+     backdrop-filter: blur(4px);
+     border: 2px solid rgba(255, 215, 0, 0.4);
+     box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+
+     margin-left: -5%;
+     
+}
+.LinksSociales img{
+     width: 50px; 
+     height: 50px; 
+     object-fit: contain; 
+     border-radius: 6px; 
+     cursor: pointer; 
+     transition: transform 0.2s ease; 
+}
+.LinksSociales img:hover { 
+     transform: scale(1.25);
 }
 
 .CromoPersonajeSecreto { 

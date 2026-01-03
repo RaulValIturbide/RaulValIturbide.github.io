@@ -33,9 +33,18 @@
         "yes":"Si",
         "no":"No",
 
-        "good": "Bueno",
-        "evil": "Malvado",
-        "neutral": "Neutral",
+        "lawful-good": "Legal-Bueno", 
+        "neutral-good": "Neutral-Bueno", 
+        "chaotic-good": "Caótico-Bueno", 
+
+        "lawful-neutral": "Legal-Neutral", 
+        "neutral-neutral": "Neutral-Neutral", 
+        "chaotic-neutral": "Caótico-Neutral", 
+
+        "lawful-evil": "Legal-Malvado", 
+        "neutral-evil": "Neutral-Malvado", 
+        "chaotic-evil": "Caótico-Malvado",
+
         "unknown": "Desconocido"
     },
 

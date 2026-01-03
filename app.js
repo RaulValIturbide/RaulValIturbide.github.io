@@ -53,22 +53,24 @@ gestorPersonaje.CargarDatosJSON(listaPersonajes).then(() => {
     gestorBusqueda = new GestorBusqueda(listaPersonajes, traducciones);
 
     // Elegir personaje secreto
-    gestorBusqueda.setPersonajeSecreto(gestorPersonaje.PersonajeDeHoy(listaPersonajes));
+     gestorBusqueda.setPersonajeSecreto(gestorPersonaje.PersonajeDeHoy(listaPersonajes));
 
+   //PRUEBAS
+   // gestorBusqueda.setPersonajeSecreto(listaPersonajes[10]);
 
-    // 5. ACTIVAR BOTONES DE IDIOMA (solo ahora funcionan)
+    // 5. ACTIVAR BOTONES DE IDIOMA 
 
     document.getElementById("IdiomaSpain").onclick = () => {
         cargarIdioma("es").then(() => {
             aplicarTraducciones();
-            gestorBusqueda.traducciones = traducciones; // AHORA SÍ EXISTE
+            gestorBusqueda.traducciones = traducciones; 
         });
     };
 
     document.getElementById("IdiomaEnglish").onclick = () => {
         cargarIdioma("en").then(() => {
             aplicarTraducciones();
-            gestorBusqueda.traducciones = traducciones; // AHORA SÍ EXISTE
+            gestorBusqueda.traducciones = traducciones; 
 
         });
     };

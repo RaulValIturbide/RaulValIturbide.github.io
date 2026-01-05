@@ -1,7 +1,11 @@
 # 🪄 Who Is In Hogwarts Today? 
-**Who Is In Hogwarts Today?** 
-es un juego interactivo diario inspirado en el mundo mágico de *Harry Potter*. 
+
+**Who Is In Hogwarts Today?**
+
+Es un juego interactivo diario inspirado en el mundo mágico de *Harry Potter*. 
 Cada día aparece un personaje diferente de Hogwarts y tu misión es adivinar quién es utilizando pistas visuales y textuales.
+
+![CapturaGithub](https://github.com/user-attachments/assets/d0415ed3-c217-4f1b-95c6-79d10aad8a9a)
 
 --- 
 
